@@ -1,0 +1,175 @@
+{
+ "selected": {
+  "ngram": [
+   1,
+   4
+  ],
+  "C": 64,
+  "val_f1_at_0.5": 0.9555,
+  "threshold": 0.5355,
+  "val_f1_at_best_thr": 0.958
+ },
+ "grid": [
+  {
+   "ngram": [
+    1,
+    4
+   ],
+   "C": 0.5,
+   "val_f1_at_0.5": 0.9119,
+   "threshold": 0.5247,
+   "val_f1_at_best_thr": 0.9161
+  },
+  {
+   "ngram": [
+    1,
+    4
+   ],
+   "C": 1,
+   "val_f1_at_0.5": 0.9231,
+   "threshold": 0.5554,
+   "val_f1_at_best_thr": 0.9277
+  },
+  {
+   "ngram": [
+    1,
+    4
+   ],
+   "C": 2,
+   "val_f1_at_0.5": 0.9357,
+   "threshold": 0.5071,
+   "val_f1_at_best_thr": 0.9406
+  },
+  {
+   "ngram": [
+    1,
+    4
+   ],
+   "C": 4,
+   "val_f1_at_0.5": 0.9456,
+   "threshold": 0.5342,
+   "val_f1_at_best_thr": 0.9492
+  },
+  {
+   "ngram": [
+    1,
+    4
+   ],
+   "C": 8,
+   "val_f1_at_0.5": 0.9493,
+   "threshold": 0.5458,
+   "val_f1_at_best_thr": 0.9515
+  },
+  {
+   "ngram": [
+    1,
+    4
+   ],
+   "C": 16,
+   "val_f1_at_0.5": 0.9493,
+   "threshold": 0.5449,
+   "val_f1_at_best_thr": 0.9554
+  },
+  {
+   "ngram": [
+    1,
+    4
+   ],
+   "C": 32,
+   "val_f1_at_0.5": 0.9542,
+   "threshold": 0.5407,
+   "val_f1_at_best_thr": 0.9567
+  },
+  {
+   "ngram": [
+    1,
+    4
+   ],
+   "C": 64,
+   "val_f1_at_0.5": 0.9555,
+   "threshold": 0.5355,
+   "val_f1_at_best_thr": 0.958
+  },
+  {
+   "ngram": [
+    2,
+    5
+   ],
+   "C": 0.5,
+   "val_f1_at_0.5": 0.9126,
+   "threshold": 0.5403,
+   "val_f1_at_best_thr": 0.9188
+  },
+  {
+   "ngram": [
+    2,
+    5
+   ],
+   "C": 1,
+   "val_f1_at_0.5": 0.9185,
+   "threshold": 0.5691,
+   "val_f1_at_best_thr": 0.9337
+  },
+  {
+   "ngram": [
+    2,
+    5
+   ],
+   "C": 2,
+   "val_f1_at_0.5": 0.9323,
+   "threshold": 0.5471,
+   "val_f1_at_best_thr": 0.9381
+  },
+  {
+   "ngram": [
+    2,
+    5
+   ],
+   "C": 4,
+   "val_f1_at_0.5": 0.9346,
+   "threshold": 0.5694,
+   "val_f1_at_best_thr": 0.9444
+  },
+  {
+   "ngram": [
+    2,
+    5
+   ],
+   "C": 8,
+   "val_f1_at_0.5": 0.9447,
+   "threshold": 0.485,
+   "val_f1_at_best_thr": 0.9461
+  },
+  {
+   "ngram": [
+    2,
+    5
+   ],
+   "C": 16,
+   "val_f1_at_0.5": 0.9474,
+   "threshold": 0.4968,
+   "val_f1_at_best_thr": 0.9488
+  },
+  {
+   "ngram": [
+    2,
+    5
+   ],
+   "C": 32,
+   "val_f1_at_0.5": 0.9488,
+   "threshold": 0.4484,
+   "val_f1_at_best_thr": 0.9518
+  },
+  {
+   "ngram": [
+    2,
+    5
+   ],
+   "C": 64,
+   "val_f1_at_0.5": 0.9501,
+   "threshold": 0.4181,
+   "val_f1_at_best_thr": 0.9531
+  }
+ ],
+ "n_vocab": 33277
+}

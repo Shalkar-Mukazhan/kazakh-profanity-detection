@@ -1,0 +1,41 @@
+ngram,weight,direction
+ ам,16.367,profanity
+ота,15.679,profanity
+ көт,14.929,profanity
+көт,14.907,profanity
+ бл,14.415,profanity
+еба,13.944,profanity
+ еб,13.755,profanity
+бл,13.53,profanity
+отақ,13.398,profanity
+еб,13.306,profanity
+ху,13.245,profanity
+ еба,13.213,profanity
+бля,12.35,profanity
+кот,12.273,profanity
+ бля,12.045,profanity
+ кот,11.781,profanity
+қота,11.605,profanity
+қот,11.073,profanity
+ қот,10.823,profanity
+от,10.743,profanity
+ля,10.126,profanity
+ ам ,10.108,profanity
+ пи,9.094,profanity
+ба,8.928,profanity
+ амы,8.781,profanity
+отан,-12.857,clean
+ ,-12.159,clean
+тан ,-5.59,clean
+лбас,-4.506,clean
+а,-4.451,clean
+тан,-4.441,clean
+ігіс,-4.279,clean
+жалб,-4.098,clean
+гіс,-3.858,clean
+.,-3.841,clean
+тко,-3.838,clean
+тко ,-3.833,clean
+ ба,-3.784,clean
+ыны ,-3.749,clean
+дау ,-3.68,clean

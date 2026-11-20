@@ -1,0 +1,45 @@
+{
+ "seed": 42,
+ "total": 16755,
+ "groups_in_more_than_one_split": 0,
+ "by_split": {
+  "train": {
+   "n": 11765,
+   "label_0": 9961,
+   "label_1": 1804
+  },
+  "val": {
+   "n": 2572,
+   "label_0": 2185,
+   "label_1": 387
+  },
+  "test": {
+   "n": 2418,
+   "label_0": 2066,
+   "label_1": 352
+  }
+ },
+ "by_label_method": {
+  "no_lexicon_hit": 14000,
+  "lexicon_strong": 2190,
+  "manual": 454,
+  "swear_dataset_neutral": 48,
+  "swear_dataset_offensive": 26,
+  "swear_dataset_vulgar": 19,
+  "swear_dataset_insult": 14,
+  "manual_correction": 4
+ },
+ "by_domain_label1": {
+  "appstore": 2480,
+  "swear_lexicon": 48,
+  "bookstore": 10,
+  "mapping": 5
+ },
+ "by_domain_total": {
+  "appstore": 11457,
+  "market": 4368,
+  "mapping": 520,
+  "bookstore": 303,
+  "swear_lexicon": 107
+ }
+}

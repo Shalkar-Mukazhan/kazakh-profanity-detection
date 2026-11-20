@@ -1,0 +1,147 @@
+{
+ "test": {
+  "set": "held-out test",
+  "n": 2490,
+  "n_label_1": 365,
+  "n_label_0": 2125,
+  "threshold": 0.3345,
+  "precision_1": 0.9239,
+  "recall_1": 0.9644,
+  "f1_1": 0.9437,
+  "average_precision": 0.9856,
+  "confusion_matrix": {
+   "tn": 2096,
+   "fp": 29,
+   "fn": 13,
+   "tp": 352
+  },
+  "by_domain": {
+   "appstore": {
+    "n": 1733,
+    "n_label_1": 363,
+    "fp": 28,
+    "fn": 12
+   },
+   "bookstore": {
+    "n": 50,
+    "n_label_1": 0,
+    "fp": 0,
+    "fn": 0
+   },
+   "mapping": {
+    "n": 71,
+    "n_label_1": 2,
+    "fp": 0,
+    "fn": 1
+   },
+   "market": {
+    "n": 636,
+    "n_label_1": 0,
+    "fp": 1,
+    "fn": 0
+   }
+  },
+  "by_label_method": {
+   "lexicon_strong": {
+    "n": 322,
+    "accuracy": 0.9752
+   },
+   "manual": {
+    "n": 65,
+    "accuracy": 0.8
+   },
+   "no_lexicon_hit": {
+    "n": 2103,
+    "accuracy": 0.99
+   }
+  }
+ },
+ "product_test": {
+  "set": "product reviews: 65 synthetic + 636 real clean market reviews",
+  "n": 701,
+  "n_label_1": 35,
+  "n_label_0": 666,
+  "threshold": 0.3345,
+  "precision_1": 0.9667,
+  "recall_1": 0.8286,
+  "f1_1": 0.8923,
+  "average_precision": 0.9733,
+  "confusion_matrix": {
+   "tn": 665,
+   "fp": 1,
+   "fn": 6,
+   "tp": 29
+  }
+ },
+ "synthetic_only": {
+  "set": "synthetic only",
+  "n": 65,
+  "n_label_1": 35,
+  "n_label_0": 30,
+  "threshold": 0.3345,
+  "precision_1": 1.0,
+  "recall_1": 0.8286,
+  "f1_1": 0.9062,
+  "average_precision": 0.9889,
+  "confusion_matrix": {
+   "tn": 30,
+   "fp": 0,
+   "fn": 6,
+   "tp": 29
+  }
+ },
+ "synthetic_by_type": {
+  "abbreviation": {
+   "n": 2,
+   "accuracy": 1.0
+  },
+  "caps": {
+   "n": 1,
+   "accuracy": 1.0
+  },
+  "clean_mild_insult": {
+   "n": 2,
+   "accuracy": 1.0
+  },
+  "clean_negative": {
+   "n": 8,
+   "accuracy": 1.0
+  },
+  "clean_positive": {
+   "n": 5,
+   "accuracy": 1.0
+  },
+  "clean_tricky": {
+   "n": 15,
+   "accuracy": 1.0
+  },
+  "latin": {
+   "n": 2,
+   "accuracy": 1.0
+  },
+  "mixed": {
+   "n": 1,
+   "accuracy": 1.0
+  },
+  "plain": {
+   "n": 13,
+   "accuracy": 0.692
+  },
+  "russian_root": {
+   "n": 11,
+   "accuracy": 1.0
+  },
+  "spaced": {
+   "n": 2,
+   "accuracy": 1.0
+  },
+  "star_masked": {
+   "n": 2,
+   "accuracy": 0.0
+  },
+  "stretched": {
+   "n": 1,
+   "accuracy": 1.0
+  }
+ }
+}
